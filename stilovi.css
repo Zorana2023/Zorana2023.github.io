@@ -1,0 +1,96 @@
+table{
+    border: 2px solid black;
+    margin:auto;
+    background-color: bisque;
+
+} 
+tr, td, th{
+    border: 1px solid plum;
+    text-align: center;
+
+} 
+th{
+    background-color: aquamarine;
+} 
+body{
+    background-color: lightgrey;
+
+} 
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    position: relative;
+    
+    overflow: hidden;
+  }
+  
+  .container::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('teren.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    z-index: -1;
+  }
+
+
+h3, h2{
+    color: slateblue;
+}
+
+body{
+    background-color: lightgray ;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background-color: burlywood;
+}
+
+
+.odbojka{
+    border: 1px solid bisque;
+    background-color: bisque;
+}
+
+
+.navigacija{
+    list-style-type: none;
+    margin: none;
+    padding:0
+}
+
+.navigacija li{
+    display: flexbox;
+    float:left;
+    height: 45px;
+}
+
+.navigacija li a{
+    
+    background-color: lightcyan;
+    padding: 12px 95px;
+}
+
+
+.navigacija a:hover{
+    background-color:ghostwhite;
+}
+
+
+footer{
+    height:20px;
+    text-align: center;
+  }
